@@ -1,6 +1,5 @@
 resource "aws_s3_bucket" "test_bucket" {
   bucket = "my-tf-test-bucket-123902538"
-  acl    = "private"
 
   tags = {
     Name                 = "My bucket"
@@ -13,4 +12,8 @@ resource "aws_s3_bucket" "test_bucket" {
     git_repo             = "yor_demo2"
     yor_trace            = "52a2363d-4e47-42f1-afd5-55e8b0fad174"
   }
+  hosted_zone_id = "Z3AQBSTGFYJSTF"
+  request_payer = "BucketOwner"
+  server_side_encryption_configuration = {"rule": {"apply_server_side_encryption_by_default": {"sse_algorithm": "AES256"}}}
+  versioning = {"enabled": false, "mfa_delete": false}
 }
