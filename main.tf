@@ -8,9 +8,9 @@ resource "aws_s3_bucket" "test_bucket" {
 
   tags = {
     Name                 = "My bucket"
-    git_commit           = "bb71a5b5027a9c7da866cf669e7aec207b570f5a"
+    git_commit           = "b64b7044924ded061ced9671ca7e2494d557f001"
     git_file             = "main.tf"
-    git_last_modified_at = "2021-07-22 06:54:36"
+    git_last_modified_at = "2021-10-05 05:06:56"
     git_last_modified_by = "28880387+tsmithv11@users.noreply.github.com"
     git_modifiers        = "28880387+tsmithv11"
     git_org              = "tsmithv11"
