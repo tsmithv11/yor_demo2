@@ -1,12 +1,12 @@
 resource "aws_s3_bucket" "test_bucket" {
   bucket = "my-tf-test-bucket-123902538"
-  acl    = "private" 
+  acl    = "private"
 
   tags = {
     Name                 = "My bucket"
-    git_commit           = "bb71a5b5027a9c7da866cf669e7aec207b570f5a"
+    git_commit           = "8ebb72bf02a9ca1f280c61297954f1be5b502c7a"
     git_file             = "main.tf"
-    git_last_modified_at = "2021-07-22 06:54:36"
+    git_last_modified_at = "2021-10-05 04:52:24"
     git_last_modified_by = "28880387+tsmithv11@users.noreply.github.com"
     git_modifiers        = "28880387+tsmithv11"
     git_org              = "tsmithv11"
