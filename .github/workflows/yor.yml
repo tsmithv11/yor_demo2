@@ -16,4 +16,4 @@ jobs:
         uses: bridgecrewio/yor-action@fix_tags
         with: 
           commit_changes: false
-          tags: yor_trace
+          tags: "yor_trace"
