@@ -14,3 +14,6 @@ jobs:
           fetch-depth: 0
       - name: Run yor action
         uses: bridgecrewio/yor-action@main
+        with: 
+          commit_changes: false
+          tag: yor_trace
