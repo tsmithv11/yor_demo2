@@ -16,4 +16,4 @@ jobs:
         uses: bridgecrewio/yor-action@fix_tags
         with: 
           commit_changes: false
-          tags: git_file,git_org
+          tags: git_file,git_org 
