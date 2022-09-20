@@ -13,7 +13,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Run yor action
-        uses: bridgecrewio/yor-action@fix_tags
+        uses: bridgecrewio/yor-action@master
         with: 
           commit_changes: false
-          tags: "yor_trace"
+          tags: yor_trace
