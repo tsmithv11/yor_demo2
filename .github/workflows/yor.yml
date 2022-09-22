@@ -13,7 +13,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Run yor action
-        uses: bridgecrewio/yor-action@fix_tags
+        uses: bridgecrewio/yor-action@fix_tags_keyword
         with: 
           commit_changes: false
           tags: git_file,git_org 
