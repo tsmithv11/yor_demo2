@@ -17,4 +17,4 @@ jobs:
         with: 
           commit_changes: false
           tags: git_file,git_org 
-          skip_resources: aws_s3_bucket.b
+          parsers: CloudFormation
